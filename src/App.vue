@@ -85,6 +85,19 @@ p {
   color: black;
   font-size: 0.65rem;
 }
+.blog-wrapper .blog-content div .content-preview {
+  max-width: 650px;
+  width: 100%;
+}
+.blog-wrapper .blog-content div .content-preview p {
+  font-size: 0.6rem;
+  max-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 24px;
+  width: 100%;
+}
 .link-light {
   color: #fff;
 }

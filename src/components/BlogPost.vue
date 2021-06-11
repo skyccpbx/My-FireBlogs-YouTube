@@ -85,7 +85,8 @@ export default {
       .content-preview {
         font-size: 0.55rem;
         max-height: 24px;
-        width: 250px;
+        width: 100%;
+        max-width: 650px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
